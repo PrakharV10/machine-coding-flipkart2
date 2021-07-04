@@ -19,7 +19,7 @@ function PriceTotal() {
 	}
 
 	return (
-		<div className='w-80 shadow p-2 bg-white h-full'>
+		<div className='w-72 shadow p-2 bg-white h-full'>
 			<div className='text-md font-medium text-gray-400 border-b-2 border-gray-100'>
 				PRICE DETAILS
 			</div>

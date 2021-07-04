@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { CartIcon, SaveIcon } from '../../assets';
+import { CartIcon } from '../../assets';
 
 function NavBar() {
 	const activeStyles = {
@@ -18,11 +18,6 @@ function NavBar() {
 				<li className='w-10 cursor-pointer hover:opacity-100 transition-all'>
 					<NavLink to='/cart' activestyles={activeStyles}>
 						<CartIcon />
-					</NavLink>
-				</li>
-				<li className='w-10 cursor-pointer transition-all'>
-					<NavLink to='/savelater' activestyles={activeStyles}>
-						<SaveIcon />
 					</NavLink>
 				</li>
 			</ul>

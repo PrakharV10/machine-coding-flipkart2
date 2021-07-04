@@ -10,7 +10,7 @@ function CartDisplay() {
 	return (
 		<div className='flex-1'>
 			<div className='font-medium mb-4'>CART ITEMS ({cart.length} Items)</div>
-			<div className='flex'>
+			<div className='flex flex-wrap'>
 				{cart.map((one) => {
 					return (
 						<div>
