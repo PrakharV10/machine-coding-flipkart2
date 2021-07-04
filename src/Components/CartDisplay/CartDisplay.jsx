@@ -13,7 +13,7 @@ function CartDisplay() {
 			<div className='flex flex-wrap'>
 				{cart.map((one) => {
 					return (
-						<div>
+						<div key={one.id}>
 							<CartCard product={one} />
 						</div>
 					);
