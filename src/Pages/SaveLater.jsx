@@ -8,7 +8,7 @@ function SaveLater() {
 	} = useCart();
 
 	return (
-		<div className='w-9/12 md:mt-4 m-auto'>
+		<div className='w-9/12 md:mt-4 m-auto flex'>
 			{saveLater.map((one) => {
 				return (
 					<div>
