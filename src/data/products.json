@@ -1,0 +1,56 @@
+[
+	{
+		"id": "001",
+		"name": "Full Sleeve Printed Design",
+		"brand": "TRIPR",
+		"price": 404,
+		"actualPrice": 1999,
+		"discount": 79,
+		"image": "https://rukminim1.flixcart.com/image/540/648/jxapua80/sweatshirt/j/z/j/4xl-tnvhoodabs-sweat-tripr-original-imaf9ebbaaqqzbvv.jpeg?q=50"
+	},
+	{
+		"id": "002",
+		"name": "No sleeve Designed Tshirt",
+		"brand": "ADRENEX",
+		"price": 659,
+		"actualPrice": 1999,
+		"discount": 67,
+		"image": "https://rukminim1.flixcart.com/image/540/648/kmkxbww0/jacket/c/h/z/m-adaw20jk004b-adrenex-original-imagfgcjsq3cguhr.jpeg?q=50"
+	},
+	{
+		"id": "003",
+		"name": "Gray Jacket Designed for Men",
+		"brand": "M7",
+		"price": 874,
+		"actualPrice": 3499,
+		"discount": 75,
+		"image": "https://rukminim1.flixcart.com/image/540/648/kjiwfbk0/jacket/b/v/f/m-m7aw20jkt015a-m7-by-metronaut-original-imafz2f4qc3nnvgy.jpeg?q=50"
+	},
+	{
+		"id": "004",
+		"name": "Full Sleeve Printed Design",
+		"brand": "NIKE",
+		"price": 1647,
+		"actualPrice": 2995,
+		"discount": 45,
+		"image": "https://rukminim1.flixcart.com/image/540/648/jp02t8w0/sweatshirt/4/s/3/s-trdsweatabs1-tripr-original-imafba7amtg5z4bd.jpeg?q=50"
+	},
+	{
+		"id": "005",
+		"name": "Sleeveless Black Design",
+		"brand": "Gritstones",
+		"price": 349,
+		"actualPrice": 899,
+		"discount": 61,
+		"image": "https://rukminim1.flixcart.com/image/540/648/jdt4n0w0/jacket/r/p/b/m-gsjkt1793blkwht-gritstones-original-imaf2mph7hfzpx6g.jpeg?q=50"
+	},
+	{
+		"id": "006",
+		"name": "Maroon Formal Tshirt Slim",
+		"brand": "Classic Polo",
+		"price": 830,
+		"actualPrice": 1199,
+		"discount": 30,
+		"image": "https://rukminim1.flixcart.com/image/540/648/k0r15e80/shirt/q/h/y/xxl-condor-mrn-sf-fs-classic-polo-original-imafkg7g3mqqxhxf.jpeg?q=50"
+	}
+]
