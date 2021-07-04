@@ -6,9 +6,10 @@ function CartDisplay() {
 	const {
 		cartState: { cart },
 	} = useCart();
+
 	return (
 		<div className='flex-1'>
-			<div className='font-medium mb-4'>CART ITEMS</div>
+			<div className='font-medium mb-4'>CART ITEMS ({cart.length} Items)</div>
 			<div className='flex'>
 				{cart.map((one) => {
 					return (
