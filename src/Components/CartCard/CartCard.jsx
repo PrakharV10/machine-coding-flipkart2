@@ -4,6 +4,11 @@ import { useCart } from '../../Context/Cart-Context';
 function CartCard({ product }) {
 	const { cartDispatch } = useCart();
 
+	function saveLaterHander() {
+		cartDispatch({ type: 'REMOVE_FROM_CART', payload: { product } });
+		cartDispatch({ type: 'ADD_TO_LATER', payload: { product } });
+	}
+
 	return (
 		<div className='w-48 h-80 mt-0 ml-0 cursor-pointer shadow-sm transition-shadow duration-300 ease-in-out rounded-sm hover:shadow-lg md:w-64 md:h-96 md:m-4 md:ml-0 md:mt-0'>
 			<div className='h-40 md:h-60 w-full overflow-hidden object-contain'>
@@ -23,7 +28,7 @@ function CartCard({ product }) {
 				REMOVE
 			</button>
 			<button
-				onClick={() => cartDispatch({ type: 'ADD_TO_LATER', payload: { product } })}
+				onClick={saveLaterHander}
 				className='bg-white text-blue-500 border-2 border-blue-500 px-3 py-2 text-xs mt-4 mx-2 rounded-md font-medium'
 			>
 				SAVE FOR LATER
