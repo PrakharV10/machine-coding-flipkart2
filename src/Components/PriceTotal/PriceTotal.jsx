@@ -8,13 +8,13 @@ function PriceTotal() {
 
 	function calculateActualPrice() {
 		return cart.reduce((accum, curr) => {
-			return accum + curr.actualPrice;
+			return accum + curr.actualPrice * curr.quantity;
 		}, 0);
 	}
 
 	function calculatePrice() {
 		return cart.reduce((accum, curr) => {
-			return accum + curr.price;
+			return accum + curr.price * curr.quantity;
 		}, 0);
 	}
 
